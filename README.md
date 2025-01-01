@@ -19,6 +19,8 @@ This project leverages computer vision to automate basketball shot analysis, foc
 <summary>Click to view image processing results</summary>
 <p align="center">
 <img src="images_and_results/image_processing_1.png" alt="Image Processing" width="600"/>
+<img src="images_and_results/image_processing_2.png" alt="Image Processing" width="600"/>
+<img src="images_and_results/image_processing_3.png" alt="Image Processing" width="600"/>
 <br>**Figure:** Processed frames showing the detection of features for basketball shot analysis.
 </p>
 </details>

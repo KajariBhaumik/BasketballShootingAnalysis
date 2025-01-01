@@ -9,18 +9,50 @@ This project leverages computer vision to automate basketball shot analysis, foc
 
 ## Data Pipeline
 1. **Data Collection:** Extracted frames (10th frame) from short videos (3–4 seconds, 60–100 fps).
-2. **Annotation & Augmentation:** Annotated frames using [Roboflow](https://roboflow.com) and enhanced dataset diversity with flipping and scaling.
+2. **Annotation & Augmentation:** Annotated frames using [Roboflow](https://roboflow.com/) and enhanced dataset diversity with flipping and scaling.
 3. **Training:** Fine-tuned YOLOv8-small model with 50 epochs, AdamW optimizer, and resized frames (640x640).
 
-### Sample Frames
+---
+
+### Image Processing
 <details>
-<summary>Click to view examples of annotated and augmented frames</summary>
+<summary>Click to view image processing results</summary>
 <p align="center">
-<img src="path/to/annotation_example.png" alt="Annotated Frame" width="400"/>
-<br>**Figure:** Annotated frame highlighting basketball, shooter, and hand.
-<br><br>
-<img src="path/to/augmented_frame.png" alt="Augmented Frame" width="400"/>
-<br>**Figure:** Augmented frame after flipping and scaling for model robustness.
+<img src="images_and_results/image_processing_1.png" alt="Image Processing" width="600"/>
+<br>**Figure:** Processed frames showing the detection of features for basketball shot analysis.
+</p>
+</details>
+
+---
+
+### Release Frame Detection
+<details>
+<summary>Click to view release frame detection results</summary>
+<p align="center">
+<img src="images_and_results/release_frame_detection.png" alt="Release Frame Detection" width="600"/>
+<br>**Figure:** Frames showcasing the detection of the release frame in a basketball shot.
+</p>
+</details>
+
+---
+
+### Object Detection
+<details>
+<summary>Click to view object detection results</summary>
+<p align="center">
+<img src="images_and_results/object_detection.png" alt="Object Detection" width="600"/>
+<br>**Figure:** YOLOv8 detections of the basketball, shooter, and other objects.
+</p>
+</details>
+
+---
+
+### Spin Axis Calculation
+<details>
+<summary>Click to view spin axis detection results</summary>
+<p align="center">
+<img src="images_and_results/spin_axis_detection.png" alt="Spin Axis Calculation" width="600"/>
+<br>**Figure:** Tracked white dots on the basketball used for spin axis calculations.
 </p>
 </details>
 
@@ -29,15 +61,6 @@ This project leverages computer vision to automate basketball shot analysis, foc
 ## Results
 - **Detection Accuracy:** >95% precision and recall across classes (basketball, shooter, hand, net).
 - **Model Metrics:** Precision-Recall curve highlights the YOLOv8 model’s reliability.
-
-### Model Performance
-<details>
-<summary>Click to view Precision-Recall curve</summary>
-<p align="center">
-<img src="path/to/precision_recall_curve.png" alt="Precision-Recall Curve" width="400"/>
-<br>**Figure:** Precision-Recall curve showcasing model performance across classes.
-</p>
-</details>
 
 ---
 

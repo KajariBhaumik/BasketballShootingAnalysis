@@ -53,7 +53,7 @@ This project leverages computer vision to automate basketball shot analysis, foc
 <details>
 <summary>Click to view spin axis detection results</summary>
 <p align="center">
-<img src="images_and_results/spin_axis_detection.png" alt="Spin Axis Calculation" width="600"/>
+<img src="images_and_results/spin_axis_calculations.png" alt="Spin Axis Calculation" width="600"/>
 <br>**Figure:** Tracked white dots on the basketball used for spin axis calculations.
 </p>
 </details>

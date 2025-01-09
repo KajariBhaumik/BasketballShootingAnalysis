@@ -2,21 +2,20 @@
 
 This project leverages computer vision to automate basketball shot analysis, focusing on detecting key frames like the release frame and identifying critical objects. The goal is to provide actionable insights to enhance player performance and coaching strategies.
 
-## Highlights
-- **Object Detection:** Fine-tuned YOLOv8 to detect basketball, shooter, and hands with high precision and recall.
-- **Release Frame Detection:** Automated identification of the frame where the ball is released using a custom-trained YOLO class.
-- **Tools Used:** OpenCV for video processing, Roboflow for annotation, and Google Colab Pro for development.
-
-
----
-
-## Image Processing
+## Image Processing - basketball
 <p align="center">
 <img src="images_and_results/image_processing_1.png" alt="Image Processing" width="600"/>
 <img src="images_and_results/image_processing_2.png" alt="Image Processing" width="600"/>
 <img src="images_and_results/image_processing_3.png" alt="Image Processing" width="600"/>
 <br><strong>Figure:</strong> Processed frames showing the detection of features for basketball shot analysis.
 </p>
+
+---
+## Highlights
+- **Object Detection:** Fine-tuned YOLOv8 to detect basketball, shooter, and hands with high precision and recall.
+- **Release Frame Detection:** Automated identification of the frame where the ball is released using a custom-trained YOLO class.
+- **Tools Used:** OpenCV for video processing, Roboflow for annotation, and Google Colab Pro for development.
+
 
 ---
 
